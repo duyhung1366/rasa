@@ -1,0 +1,132 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    
+- intent: send_exam
+  examples: |
+    - Cấu trúc đề thi TOEIC như thế nào?
+    - Đề thi TOEIC gồm những phần nào?
+    - TOEIC có bao nhiêu phần?
+    - Bài thi TOEIC được chia làm mấy phần?
+    - Đề thi TOEIC có những phần gì?
+    - Mỗi phần thi TOEIC có bao nhiêu câu hỏi?
+    - Listening và Reading trong TOEIC có gì khác nhau?
+    - Thời gian làm bài TOEIC là bao lâu?
+    - Phần thi Listening trong TOEIC kéo dài bao lâu?
+    - Phần thi Reading trong TOEIC kéo dài bao lâu?
+    - What is the structure of the TOEIC test?
+    - What are the sections of the TOEIC test?
+    - How many sections are there in the TOEIC test?
+    - How many parts is the TOEIC test divided into?
+    - What parts does the TOEIC test consist of?
+    - How many questions are there in each section of the TOEIC test?
+    - What is the difference between Listening and Reading in the TOEIC test?
+    - How long is the duration of the TOEIC test?
+    - How long does the Listening section of the TOEIC test last?
+    - How long does the Reading section of the TOEIC test last?
+
+- intent: intent_listening_exam
+  examples: |
+    - Phần Listening trong TOEIC như thế nào?
+    - Listening TOEIC có mấy phần?
+    - Listening có bao nhiêu câu hỏi?
+    - What is the Listening section in the TOEIC test like?
+    - How many parts are there in the TOEIC Listening section?
+    - How many questions are there in the Listening section?
+
+- intent: ask_reading_structure
+  examples: |
+    - Phần Reading trong TOEIC như thế nào?
+    - Reading TOEIC có mấy phần?
+    - Reading có bao nhiêu câu hỏi?
+    - What is the Reading section in the TOEIC test like?
+    - How many parts are there in the TOEIC Reading section?
+    - How many questions are there in the Reading section?
